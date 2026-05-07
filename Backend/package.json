@@ -1,0 +1,19 @@
+{
+  "name": "complaint-registration-backend",
+  "version": "1.0.0",
+  "description": "Dummy API backend for Complaint Registration",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon --ignore complaints.json app.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.105.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
